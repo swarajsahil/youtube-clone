@@ -1,0 +1,3 @@
+const api_key="AIzaSyAneT3rSANEv9d6OI2NTh6eqZKORwUP8WM";
+export const youtube_api=`https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&maxResults=50&regionCode=IN&key=${api_key}`;
+// export const youtube_recommended_api=`https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=10&q=arjitsingh&type=video&key=AIzaSyBAkgmxZMDJp8GNwJD5JkyUfVe2PbUEHV0`;
